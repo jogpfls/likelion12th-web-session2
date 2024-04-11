@@ -52,14 +52,15 @@
     border-bottom: 1px dotted lightgray;
     padding-bottom: 7px;
     margin-bottom: 7px;
+    
+  }
+  li span {
+    display: inline-block;
+    width: 2000px;
   }
 
-  .styled-checkbox {
-    margin-right: 10px;
-    margin-left: 0;
+  li button {
+    flex-shrink: 0;
   }
 
-  input[type="text"] {
-    margin-right: 10px;
-    margin-left: 0;
-  }
+

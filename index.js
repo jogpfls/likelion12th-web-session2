@@ -29,7 +29,6 @@ const addItem = (todo) => {
   }
 };
 
-
 const delItem = (event) => {
   const target = event.target.parentElement;
   todos = todos.filter((todo) => todo.id !== parseInt(target.id));
